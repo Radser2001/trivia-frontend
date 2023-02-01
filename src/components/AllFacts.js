@@ -8,8 +8,6 @@ const AllFacts = () => {
     return axios
       .request("https://trivia-backend-production.up.railway.app/trivia")
       .then(function (response) {
-        console.log(response.data);
-
         return response.data;
       })
       .catch(function (error) {

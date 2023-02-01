@@ -12,8 +12,6 @@ const Fact = () => {
     return axios
       .request("https://trivia-backend-production.up.railway.app/trivia/random")
       .then(function (response) {
-        console.log(response.data);
-
         return response.data;
       })
       .catch(function (error) {
