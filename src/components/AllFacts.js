@@ -19,7 +19,7 @@ const AllFacts = () => {
     <div className="flex flex-col items-center justify-center">
       <div className="w-10/12 lg:w-4/12">
         {isLoading ? (
-          <div>Loading...</div>
+          <div className="text-center text-xl">Loading...</div>
         ) : (
           facts &&
           facts.length &&

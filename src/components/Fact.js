@@ -44,7 +44,7 @@ const Fact = () => {
           )}
         </div>
       ) : (
-        <div>Loading...</div>
+        <div className="text-center text-xl">Loading...</div>
       )}
       <div className="text-center">
         <button
